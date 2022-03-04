@@ -42,7 +42,9 @@ The following pages have more details. Please read through the entire document f
    8. State, navigation should be saved between refreshes
    9. Back button should work.
 7. **fork** current problem repository. and make your forked repository **private**.
-8. Add `@divyansh420` as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.
+8. Brownie points to deployed webapps (If you can, but not mandatory).
+9. Add `@divyansh420` as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.
+10. React Native candidates MUST submit the debug apk.
 
 <hr>
 
