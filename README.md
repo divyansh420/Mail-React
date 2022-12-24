@@ -29,17 +29,18 @@ Please go through the entire Readme to know more.
    1. inbox.json
    2. spam.json
 5. Each of the element in the JSON file represents a mail
-   1. **subject**: The mail subject which is a string
-   2. **content**: The mail content which is a string and can contain html.
-   3. **mId**: The mail Id of this mail which can be assumed to be unique Guid string
-   4. **unread**: boolean
+   1. **subject**
+   2. **content**
+   3. **mId**
+   4. **unread**
+   
    You can create your own fields if you want.
    
 6. The client should have the following features
-   1. When the app starts, the app loads the contents of each folder and displays the unread counts.
+   1. When the app starts, the app loads the contents of each folder and displays the unread count.
    2. User can move around within the app to various navigational features.
    3. User can select any mail and look into it's content.
-   4. User can see a brief preview before clicking on it.
+   4. User can see a preview before opening the email.
    5. User can delete a message. In which case it should be moved to deleted items.
    6. User can flag a message.
    7. User can search for emails.
