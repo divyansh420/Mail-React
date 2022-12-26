@@ -1,0 +1,96 @@
+.root-header {
+  height: 48px;
+  background: #0078d4;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  h1 {
+    font-size: 1rem;
+    color: white;
+    width: 10vw;
+  }
+
+  .search-and-profile-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .input-section {
+      background: rgba($color: #000000, $alpha: 0.5);
+      display: flex;
+      align-items: center;
+      height: 30px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      width: 300px;
+      gap: 5px;
+
+      & > input {
+        border: none;
+        height: 100%;
+        background: transparent;
+        color: white;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .profile-image {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      background: orange;
+    }
+  }
+}
+
+.folder-container {
+  height: calc(100vh - 48px);
+  display: grid;
+  grid-template-columns: 0.5fr 0.8fr 1.7fr;
+
+  .folder-section {
+    background: #212121;
+    padding-top: 30px;
+    padding: 30px 10px 30px 10px;
+
+    h2 {
+      padding-left: 1.5vw;
+      font-size: 1.2rem;
+    }
+
+    ul {
+      display: flex;
+      height: fit-content;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 10px;
+      list-style: none;
+
+      li {
+        // background: #0b2e4a;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background: black;
+        }
+      }
+    }
+  }
+
+  .preview-section {
+    background: orange;
+  }
+  .detail-view-section {
+    background: blue;
+  }
+}
