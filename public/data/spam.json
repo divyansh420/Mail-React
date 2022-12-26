@@ -1,0 +1,38 @@
+[
+  {
+    "mId": "guid-9",
+    "unread": true,
+    "name": "Outlook",
+    "time": "12:35 PM",
+    "to": "Deepesh",
+    "subject": "Training Program",
+    "content": "About Microsoft Virtual Academy<br/>Microsoft Virtual Academy provides free online training by world-class experts to help you build your technical skills and advance your career. Make it your destination of choice to get started on the latest Microsoft technologies and join this vibrant community."
+  },
+  {
+    "mId": "guid-10",
+    "unread": false,
+    "name": "Abc",
+    "to": "Deepesh",
+    "time": "12:35 PM",
+    "subject": "Empower your future",
+    "content": "We foster our pipeline of future leaders with 47 employee networks and 7 global employee resource groups, servicing an active community of thousands across Microsoft"
+  },
+  {
+    "mId": "guid-11",
+    "unread": false,
+    "name": "ReactJs",
+    "to": "Deepesh",
+    "time": "12:35 PM",
+    "subject": "Empower your future",
+    "content": "We foster our pipeline of future leaders with 47 employee networks and 7 global employee resource groups, servicing an active community of thousands across Microsoft"
+  },
+  {
+    "mId": "guid-12",
+    "unread": false,
+    "name": "Don't Know",
+    "time": "12:35 PM",
+    "to": "Deepesh",
+    "subject": "Empower your future",
+    "content": "We foster our pipeline of future leaders with 47 employee networks and 7 global employee resource groups, servicing an active community of thousands across Microsoft"
+  }
+]
