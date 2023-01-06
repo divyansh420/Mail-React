@@ -12,6 +12,8 @@ To see an example: Login to https://outlook.live.com/.
 
 Do share a video of the working app.
 
+**PLEASE DO NOT USE ANY CLONE**
+
 Please go through the entire Readme to know more.
 
 <hr>
