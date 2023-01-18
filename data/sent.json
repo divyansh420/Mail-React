@@ -1,0 +1,39 @@
+{
+	"emails": [
+		{
+			"mId": "guid-1",
+			"subject": "aliquip dolor aute Lorem",
+			"content": "Id cillum consequat sint aute. Duis magna sint aliqua officia commodo in aliquip irure. Voluptate nulla in amet nulla deserunt est. Laboris excepteur ullamco minim consectetur laborum consectetur reprehenderit. Cupidatat anim ad non irure ipsum velit irure anim."
+		},
+		{
+			"mId": "guid-2",
+			"subject": "cillum adipisicing amet elit",
+			"content": "Dolore incididunt sint nulla occaecat ad laboris laborum irure laborum cupidatat. Ipsum eiusmod commodo cupidatat nulla enim duis incididunt pariatur. Anim excepteur qui nisi cupidatat adipisicing cupidatat sit quis minim eiusmod. Irure veniam deserunt eu laborum sint. Proident nulla tempor sunt sit eiusmod elit anim fugiat magna anim nisi."
+		},
+		{
+			"mId": "guid-3",
+			"subject": "enim irure Lorem in",
+			"content": "Voluptate et labore occaecat enim ex elit nisi mollit. Ipsum nisi consectetur eu sunt eiusmod eiusmod veniam labore. Exercitation voluptate ea elit adipisicing amet nulla cupidatat pariatur cupidatat proident duis ad veniam. Velit adipisicing incididunt nulla cillum. Voluptate in do magna anim esse esse ut in dolore mollit non occaecat sint."
+		},
+		{
+			"mId": "guid-4",
+			"subject": "aliquip labore ullamco occaecat",
+			"content": "Cillum aute ipsum officia quis id adipisicing id id deserunt. Dolor anim quis non veniam sunt sunt esse occaecat. Ex aliqua ipsum occaecat ullamco ipsum non eiusmod magna dolor. Aliqua eiusmod anim aute culpa minim ipsum quis ad et qui. Proident duis dolore quis non id adipisicing sit ea exercitation cillum nostrud commodo."
+		},
+		{
+			"mId": "guid-5",
+			"subject": "in laboris officia veniam",
+			"content": "Commodo sunt incididunt occaecat officia incididunt anim esse. Cillum sit ut ullamco cillum nostrud. Sunt anim occaecat incididunt id non sint et eu dolor aute sit. Ipsum ex aliquip nulla labore labore. Est adipisicing ut cupidatat pariatur sint veniam elit in ullamco aute laborum commodo sint."
+		},
+		{
+			"mId": "guid-6",
+			"subject": "tempor ullamco do elit",
+			"content": "Consequat ipsum laboris sit id. Proident dolore excepteur dolore minim et fugiat tempor consequat labore adipisicing. Aute duis qui sunt ipsum non ex ut non. Quis esse ullamco minim non dolor incididunt dolore anim aute veniam magna velit ex. Eiusmod est dolor nostrud voluptate occaecat ex excepteur excepteur quis ipsum nostrud sit deserunt."
+		},
+		{
+			"mId": "guid-7",
+			"subject": "est ullamco eu sit",
+			"content": "Sit mollit occaecat velit fugiat cupidatat sunt quis do ex. Exercitation anim eu cupidatat deserunt. Qui do ullamco incididunt quis ea labore ea aute consequat ea quis occaecat. Nostrud reprehenderit aliquip excepteur minim quis. Labore incididunt laboris et aliquip."
+		}
+	]
+}

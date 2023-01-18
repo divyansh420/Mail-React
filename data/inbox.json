@@ -1,0 +1,88 @@
+{
+	"emails": [
+		{
+			"mId": "guid-1",
+			"unread": true,
+			"subject": "Training Program",
+			"content": "About Microsoft Virtual Academy<br/>Microsoft Virtual Academy provides free online training by world-class experts to help you build your technical skills and advance your career. Make it your destination of choice to get started on the latest Microsoft technologies and join this vibrant community."
+		},
+		{
+			"mId": "guid-2",
+			"unread": false,
+			"subject": "Empower your future",
+			"content": "We foster our pipeline of future leaders with 47 employee networks and 7 global employee resource groups, servicing an active community of thousands across Microsoft"
+		},
+		{
+			"mId": "guid-3",
+			"unread": false,
+			"subject": "proident occaecat elit Lorem",
+			"content": "Veniam sunt in dolore esse anim ullamco proident. Velit laboris laboris qui cupidatat est qui in reprehenderit minim est ad do laborum. Laboris deserunt ad ut ad eu et est tempor dolor ut officia voluptate consectetur. Minim id enim exercitation deserunt excepteur nisi. Aliquip fugiat quis et deserunt dolore nostrud id et Lorem."
+		},
+		{
+			"mId": "guid-4",
+			"unread": true,
+			"subject": "labore ad ad voluptate",
+			"content": "Sunt Lorem cupidatat laborum sit aliqua voluptate adipisicing velit nisi ex nisi. Amet aute mollit laborum aute nulla ut sunt aute. Amet deserunt deserunt eu mollit eu amet ut cillum non nulla voluptate sit. Est officia aute ea anim proident duis laboris deserunt ullamco incididunt ipsum aliqua eiusmod. Cupidatat est non esse ipsum quis ad."
+		},
+		{
+			"mId": "guid-5",
+			"unread": true,
+			"subject": "aute velit duis labore",
+			"content": "Est nulla excepteur sit laborum aliqua laborum irure eu voluptate eu tempor esse pariatur. Aliqua eiusmod fugiat laboris minim adipisicing. Do velit dolore est consequat dolore. Nulla Lorem minim magna eu tempor. Deserunt exercitation reprehenderit veniam ullamco eu mollit eiusmod adipisicing non cupidatat."
+		},
+		{
+			"mId": "guid-6",
+			"unread": false,
+			"subject": "ad occaecat sunt ipsum",
+			"content": "Do consequat non velit laborum Lorem. Incididunt sunt irure magna velit irure. Irure ex voluptate eu tempor sunt anim sit commodo ullamco dolore eu. Nulla est ullamco pariatur aute. Veniam velit sunt ullamco esse ea officia."
+		},
+		{
+			"mId": "guid-7",
+			"unread": false,
+			"subject": "irure ullamco duis eu",
+			"content": "Aliquip aliquip dolore magna do adipisicing deserunt quis aute voluptate laboris. Eiusmod amet laboris nulla cupidatat do laboris ex enim quis. Consectetur ullamco ad incididunt elit labore adipisicing sit sunt eiusmod ut. Non esse in aute deserunt reprehenderit labore. Reprehenderit anim exercitation laboris aliquip dolor cupidatat reprehenderit."
+		},
+		{
+			"mId": "guid-8",
+			"unread": true,
+			"subject": "ullamco irure tempor adipisicing",
+			"content": "Id qui laborum esse ullamco in. Dolore incididunt veniam laborum laborum aliqua quis cupidatat deserunt. Nulla do consequat occaecat nostrud dolor. Incididunt enim incididunt duis ex qui. Culpa fugiat nisi sunt occaecat deserunt voluptate."
+		},
+		{
+			"mId": "guid-9",
+			"unread": false,
+			"subject": "minim incididunt est elit",
+			"content": "In mollit excepteur irure proident sint nisi minim eu do minim laboris magna tempor cillum. Lorem cillum incididunt tempor labore culpa consectetur. Quis laborum nulla occaecat cupidatat est sint nisi amet exercitation elit. Aliqua qui nisi tempor et ullamco laboris reprehenderit cupidatat ad est. Eiusmod sit ad Lorem do velit nostrud Lorem."
+		},
+		{
+			"mId": "guid-10",
+			"unread": false,
+			"subject": "nulla ad reprehenderit ut",
+			"content": "Sunt ad eiusmod incididunt in non occaecat enim veniam. Officia culpa et eu id id velit elit. Laborum in mollit officia aute sint aliquip est dolore exercitation anim ut amet enim. Dolore minim est deserunt laboris eiusmod cupidatat ex. Pariatur laborum aliquip excepteur sunt ex amet magna."
+		},
+		{
+			"mId": "guid-11",
+			"unread": true,
+			"subject": "voluptate consectetur nulla est",
+			"content": "Aute aliqua do occaecat id id aute velit incididunt incididunt incididunt ex. Aliqua quis Lorem dolore eiusmod veniam dolor labore fugiat ad pariatur quis. Minim mollit cupidatat nulla nostrud labore laborum qui tempor culpa ut voluptate pariatur. Laboris officia aliqua aliqua mollit proident. Ipsum excepteur duis aliqua nulla velit non aliqua."
+		},
+		{
+			"mId": "guid-12",
+			"unread": false,
+			"subject": "adipisicing qui incididunt cillum",
+			"content": "Nisi magna laboris est consectetur tempor velit eiusmod laboris aute mollit commodo. Adipisicing tempor laboris anim dolore incididunt laborum reprehenderit occaecat veniam commodo. Commodo aliqua consequat aute ipsum elit anim Lorem. Sint ipsum voluptate velit et. Commodo id officia consequat dolor ipsum dolor consequat irure aute ad non."
+		},
+		{
+			"mId": "guid-13",
+			"unread": true,
+			"subject": "excepteur excepteur proident et",
+			"content": "Esse in ut sit labore ipsum eiusmod. Nisi occaecat elit non labore occaecat aliquip cillum adipisicing consectetur officia irure est magna. Incididunt nulla esse ea nostrud esse in enim nulla sit laboris eu voluptate. Et adipisicing deserunt voluptate do duis incididunt ad in ea veniam consequat aute non. Nulla dolore non commodo sint consectetur do ut do aliquip."
+		},
+		{
+			"mId": "guid-14",
+			"unread": true,
+			"subject": "fugiat qui Lorem et",
+			"content": "Veniam consequat sint dolor esse non nostrud tempor fugiat. Ut labore reprehenderit reprehenderit et laboris anim. Qui adipisicing sunt enim veniam quis consequat labore sunt occaecat. Tempor est consequat qui dolor esse consectetur velit. Mollit labore ea ullamco duis ullamco nulla non."
+		}
+	]
+}
