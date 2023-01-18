@@ -9,23 +9,26 @@ const StyledList = styled.ul`
 	border-inline-end: 1.5px solid;
 `;
 
-const StyledListItem = styled.li`
+type listItemProps = {
+	isUnRead?: boolean;
+};
+const StyledListItem = styled.li<listItemProps>`
 	margin-block-end: 0.3em;
 	border-block-end: 1px solid;
 	display: flex;
 	justify-content: space-between;
-	background-color: ${props => (props.unread ? 'var(--pacific-blue)' : '')};
+	background-color: ${props => (props.isUnRead ? 'var(--pacific-blue)' : '')};
 
 	a {
 		font-weight: 600;
 		min-width: 100%;
 	}
 `;
-const ListItem = ({ email }) => {
+const ListItem = ({ email }: { email: email }) => {
 	const { emailCategory } = useParams();
 
 	return (
-		<StyledListItem unread={email?.unread}>
+		<StyledListItem isUnRead={email?.unread}>
 			<NavLink to={`/${emailCategory}/${email.mId}`}>{email.subject}</NavLink>
 		</StyledListItem>
 	);

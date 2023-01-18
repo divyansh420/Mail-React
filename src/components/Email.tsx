@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import axios from 'axios';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Params, useLoaderData, useParams } from 'react-router-dom';
+import { email } from '../types';
 
 const StyledEmail = styled.div`
 	& > div {
@@ -32,17 +33,25 @@ const StyledEmail = styled.div`
 	}
 `;
 const Email = () => {
-	const email = useLoaderData();
+	const email = useLoaderData() as email;
 	const { emailCategory, emailID } = useParams();
 
 	const handleRead = async () => {
 		const { data } = await axios(`../../data/${emailCategory}.json`);
-		const emailIndex = data.emails.findIndex(e => e.mId === emailID);
+		const emailIndex = data.emails.findIndex(
+			(email: email) => email.mId === emailID
+		);
 		data.emails[emailIndex].unread = false;
-		axios.patch(`../../data/${emailCategory}/emails`, data.emails);
+		axios.put(`../../data/${emailCategory}`, data);
 	};
 
-	const handleDelete = () => {};
+	const handleDelete = async () => {
+		const { data } = await axios(`../../data/${emailCategory}.json`);
+		const filteredEmails = data.emails.filter(
+			(email: email) => email.mId !== emailID
+		);
+		axios.put(`../../data/${emailCategory}.json/emails`, filteredEmails);
+	};
 	return (
 		<StyledEmail>
 			<div>
@@ -64,8 +73,12 @@ const Email = () => {
 	);
 };
 
-export const loadEmail = async ({ params }) => {
+export const loadEmail = async ({
+	params,
+}: {
+	params: Params;
+}): Promise<email> => {
 	const { data } = await axios(`../../data/${params.emailCategory}.json`);
-	return data.emails.find(email => email.mId === params.emailID);
+	return data.emails.find((email: email) => email.mId === params.emailID);
 };
 export default Email;

@@ -1,7 +1,7 @@
 import { Link, NavLink, Outlet, useLoaderData } from 'react-router-dom';
 import styled from '@emotion/styled';
 import axios from 'axios';
-
+import { email } from '../types';
 const StyledNav = styled.nav`
 	padding-inline: 0.5em 2em;
 	border-inline-end: 1.5px solid;
@@ -19,7 +19,7 @@ const StyledNav = styled.nav`
 `;
 
 const SideNavBar = () => {
-	const [unreadInbox, unreadSpam] = useLoaderData();
+	const [unreadInbox, unreadSpam] = useLoaderData() as number[];
 	return (
 		<StyledNav>
 			<ul>
@@ -45,11 +45,13 @@ const SideNavBar = () => {
 	);
 };
 
-export const loadUnreadCount = async () => {
+export const loadUnreadCount = async (): Promise<number[]> => {
 	const { data: inbox } = await axios('../../data/inbox.json');
 	const { data: spam } = await axios('../../data/spam.json');
-	const unreadSpam = spam.emails.filter(email => email.unread).length;
-	const unreadInbox = inbox.emails.filter(email => email.unread).length;
+	const unreadSpam = spam.emails.filter((email: email) => email.unread).length;
+	const unreadInbox = inbox.emails.filter(
+		(email: email) => email.unread
+	).length;
 	return [unreadInbox, unreadSpam];
 };
 export default SideNavBar;

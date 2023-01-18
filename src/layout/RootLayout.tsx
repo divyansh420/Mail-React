@@ -5,7 +5,7 @@ import SideNavBar from '../components/SideNavBar';
 
 const StyledMailBox = styled.div`
 	display: grid;
-	grid-template-columns: 10vw auto;
+	grid-template-columns: 15% auto;
 	padding-inline: 2em;
 	height: 100%;
 `;
