@@ -1,0 +1,14 @@
+{
+	"emails": [
+		{
+			"mId": "guid-1",
+			"subject": "aliquip eu exercitation magna",
+			"content": "Ut sit nostrud incididunt proident. Esse est ad sunt enim cupidatat. In nostrud do velit nulla anim laborum commodo quis. Mollit do adipisicing nisi qui excepteur exercitation incididunt ut quis. Eu sit minim ea ad id minim velit ullamco do incididunt voluptate laborum laborum."
+		},
+		{
+			"mId": "guid-2",
+			"subject": "cillum aliquip aliqua id",
+			"content": "Nisi consequat nostrud voluptate minim laborum commodo labore nulla enim ex deserunt. Sit enim Lorem dolore duis ea ea magna. Sunt dolor commodo laboris cillum aliqua minim culpa ex ut sit eu dolor labore anim. Dolore anim in laboris nulla deserunt. Sint non Lorem minim magna enim nostrud ut aute veniam."
+		}
+	]
+}

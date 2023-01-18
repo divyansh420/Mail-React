@@ -1,0 +1,34 @@
+{
+	"emails": [
+		{
+			"mId": "guid-3",
+			"unread": true,
+			"subject": "Pre Approved Loan",
+			"content": "Congratulations ! <u>Credit card<u> is being shipped to you today!"
+		},
+		{
+			"mId": "guid-4",
+			"unread": true,
+			"subject": "You won a lottery!",
+			"content": "You have just won the New York official lottery. Please send us your address so that we may start the transfer."
+		},
+		{
+			"mId": "guid-5",
+			"unread": false,
+			"subject": "veniam minim ex aliqua",
+			"content": "Commodo minim elit in voluptate. Aliquip non esse dolor aliquip nostrud qui exercitation non esse. Aliquip labore sit qui reprehenderit do officia quis. Voluptate deserunt labore aute laborum et commodo eu deserunt tempor consequat. Deserunt cupidatat Lorem consequat ex deserunt laboris ex deserunt eiusmod et cupidatat consectetur."
+		},
+		{
+			"mId": "guid-6",
+			"unread": false,
+			"subject": "tempor proident qui occaecat",
+			"content": "Quis voluptate eiusmod consequat esse dolore commodo aliqua id. Ad ipsum tempor elit duis anim. Elit nulla velit cupidatat officia voluptate. Amet incididunt veniam ipsum cupidatat ullamco ad. Elit proident ea elit reprehenderit aute."
+		},
+		{
+			"mId": "guid-7",
+			"unread": true,
+			"subject": "sit cupidatat sint tempor",
+			"content": "Reprehenderit irure ullamco aliquip velit voluptate. Pariatur cupidatat duis excepteur nostrud sint et irure tempor eu. Laborum cupidatat sunt excepteur ipsum dolore velit duis ea velit anim proident esse ullamco consequat. Non reprehenderit cupidatat sint aute consequat. Irure ipsum enim dolor aliqua."
+		}
+	]
+}
