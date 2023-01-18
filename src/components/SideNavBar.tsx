@@ -46,8 +46,8 @@ const SideNavBar = () => {
 };
 
 export const loadUnreadCount = async (): Promise<number[]> => {
-	const { data: inbox } = await axios('../../data/inbox.json');
-	const { data: spam } = await axios('../../data/spam.json');
+	const { data: inbox } = await axios('../../public/data/inbox.json');
+	const { data: spam } = await axios('../../public/data/spam.json');
 	const unreadSpam = spam.emails.filter((email: email) => email.unread).length;
 	const unreadInbox = inbox.emails.filter(
 		(email: email) => email.unread

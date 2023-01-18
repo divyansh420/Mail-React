@@ -37,16 +37,16 @@ const Email = () => {
 	const { emailCategory, emailID } = useParams();
 
 	const handleRead = async () => {
-		const { data } = await axios(`../../data/${emailCategory}.json`);
+		const { data } = await axios(`../../public/data/${emailCategory}.json`);
 		const emailIndex = data.emails.findIndex(
 			(email: email) => email.mId === emailID
 		);
 		data.emails[emailIndex].unread = false;
-		axios.put(`../../data/${emailCategory}`, data);
+		axios.put(`../../public/data/${emailCategory}`, JSON.stringify(data));
 	};
 
 	const handleDelete = async () => {
-		const { data } = await axios(`../../data/${emailCategory}.json`);
+		const { data } = await axios(`../../public/data/${emailCategory}.json`);
 		const filteredEmails = data.emails.filter(
 			(email: email) => email.mId !== emailID
 		);
@@ -78,7 +78,9 @@ export const loadEmail = async ({
 }: {
 	params: Params;
 }): Promise<email> => {
-	const { data } = await axios(`../../data/${params.emailCategory}.json`);
+	const { data } = await axios(
+		`../../public/data/${params.emailCategory}.json`
+	);
 	return data.emails.find((email: email) => email.mId === params.emailID);
 };
 export default Email;
