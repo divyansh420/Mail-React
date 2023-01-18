@@ -23,7 +23,7 @@ export const loadEmails = async ({
 }: {
 	params: Params;
 }): Promise<{ emails: email[] }> => {
-	const res = await axios(`../../public/data/${params.emailCategory}.json`);
+	const res = await axios(`../../data/${params.emailCategory}.json`);
 	return res.data;
 };
 export default MailCategoryLayout;
