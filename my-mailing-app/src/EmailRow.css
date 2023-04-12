@@ -1,0 +1,35 @@
+.email-row{
+    right: 10px;
+    position: fixed;
+    border: 1px;
+    outline: auto;
+    width: 78%;
+    height: 91vh;
+    overflow: hidden;
+    margin-top: 55px;
+}
+.email-row-content{
+    padding-left: 5px;
+    display: flex;
+    border: 1px;
+    outline: auto;
+}
+.email-row-options{
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.email-row-title{
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.email-row-message{
+    padding-left: 5px;
+    padding-right: 20px;
+    color: gray;
+}
+.email-row-time{
+    padding-left: 5px;
+    padding-right: 20px;
+    color: gray;
+
+}
