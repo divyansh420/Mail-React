@@ -1,0 +1,30 @@
+.sidebar{
+    border: 1px;
+    outline: auto;
+    width: 20%;
+    height: 91vh;
+    overflow: hidden;
+    margin-top: 55px;
+    position: fixed;
+    left: 5px;
+}
+.sidebar-options{
+    padding-left: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.sidebar-option-buttons{
+    border: none;
+    outline-width: 0px;
+    background: none;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    color: rgb(104, 96, 96);
+}
+.sidebar-option-buttons:hover{
+    background-color: #8fc3f1;
+    border-radius: 20px;
+    width: 90%;
+}
