@@ -2,8 +2,7 @@ import React from 'react';
 import './EmailList.css';
 import EmailRow from './EmailRow';
 
-
-function EmailList() {
+function Spam() {
   return (
     <div className='email-list'>
         <EmailRow 
@@ -16,4 +15,4 @@ function EmailList() {
   )
 }
 
-export default EmailList
+export default Spam

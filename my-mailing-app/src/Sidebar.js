@@ -1,23 +1,25 @@
 import React from 'react';
 import './Sidebar.css';
+import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
+    const navigate =useNavigate();
   return (
     <div className='sidebar'>
-        <div className='sidebar-options'>
+        <div onClick={() => navigate('/inbox')} className='sidebar-options'>
             <button className='sidebar-option-buttons'>Inbox</button>
         </div>
-        <div className='sidebar-options'>
+        <div onClick={() => navigate('/starred')} className='sidebar-options'>
             <button className='sidebar-option-buttons'>Starred</button>
         </div>
-        <div className='sidebar-options'>
+        <div onClick={() => navigate('/spam')} className='sidebar-options'>
             <button className='sidebar-option-buttons'>Spam</button>
         </div>
-        <div className='sidebar-options'>
+        <div onClick={() => navigate('/deleted')} className='sidebar-options'>
             <button className='sidebar-option-buttons'>Deleted Items</button>
         </div>
-        <div className='sidebar-options'>
-            <button className='sidebar-option-buttons'>Create Custom Folder</button>
+        <div onClick={() => navigate('/customfolder')} className='sidebar-options'>
+            <button className='sidebar-option-buttons'>Custom Folder</button>
         </div>
     </div>
   )

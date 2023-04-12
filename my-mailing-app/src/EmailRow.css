@@ -22,11 +22,14 @@
     padding-left: 5px;
     padding-right: 20px;
 }
-.email-row-description{
+.email-row-message{
     padding-left: 5px;
     padding-right: 20px;
+    color: gray;
 }
 .email-row-time{
     padding-left: 5px;
     padding-right: 20px;
+    color: gray;
+
 }

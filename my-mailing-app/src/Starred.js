@@ -1,9 +1,8 @@
-import React from 'react';
+import React from 'react'
 import './EmailList.css';
 import EmailRow from './EmailRow';
 
-
-function EmailList() {
+function Starred() {
   return (
     <div className='email-list'>
         <EmailRow 
@@ -16,4 +15,4 @@ function EmailList() {
   )
 }
 
-export default EmailList
+export default Starred
